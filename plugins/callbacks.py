@@ -42,7 +42,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "help_data":
+    elif query.data == "start_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
@@ -64,7 +64,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "about_data":
+    elif query.data == "start_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
